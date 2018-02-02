@@ -1,0 +1,14 @@
+2 2
+1
+4  0 0  0 1  0 2  0 3
+
+The polyomino looks like this:
+
+X X X X
+
+The space to put it in looks like this:
+
+. .
+. .
+
+Clearly it won't fit.

@@ -1,0 +1,22 @@
+3 3
+2
+5  0 0  0 1  0 2  1 0  1 1
+4  0 0  1 0  2 0  0 1 
+
+The space looks like:
+
+. . .
+. . .
+. . .
+
+The polyominos look like:
+
+width width
+width width width
+
+and:
+
+height
+height height height
+
+The first one can be placed and then the second will need to be rotated and moved around a bit.

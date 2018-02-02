@@ -1,0 +1,27 @@
+3 20
+12
+5  0 0  0 1  0 2  1 0  1 1
+5  0 0  1 0  1 1  2 0  3 0
+5  0 0  1 0  2 0  3 0  4 0
+5  0 0  1 0  2 0  1 1  1 2
+5  0 0  0 1  0 2  1 0  1 2
+5  0 0  0 1  0 2  1 0  2 0
+5  0 0  1 0  1 1  1 2  2 2
+5  0 1  1 0  1 1  1 2  2 1
+5  0 0  0 1  0 2  0 3  1 0
+5  0 0  1 0  1 1  2 1  2 2
+5  0 0  1 0  2 0  2 1  3 1
+5  0 1  1 0  1 1  1 2  2 2
+
+This file uses only pentominoes. All 12 pentominoes are to be placed into 
+a 3x20 rectangle. This instance of the tiling problem has only a very few 
+distinct solutions.  You may wish to test the efficiency of your solution 
+by reordering the pentominoes in this file.
+
+One possible solution is shown below. I've attempted to make this solution
+as easy to read as possible by using the letter names of Solomon W. Golomb
+in this diagram.
+
+U U X P P P L L L L F T T T W W Z V V V
+U X X X P P L N N F F F T W W Y Z Z Z V
+U U X I I I I I N N N F T W Y Y Y Y Z V
