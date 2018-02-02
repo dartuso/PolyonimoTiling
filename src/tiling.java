@@ -32,12 +32,7 @@ public class tiling {
     }
 
     private void start() throws IOException {
-        Scanner reader = new Scanner(System.in);
-        System.out.print("Enter the data's filename: ");
-        String filename = reader.nextLine();
-        System.out.println();
-        reader.close();
-        loadData(filename);
+        loadData();
 
         System.out.println("Solving started.");
         long start = System.currentTimeMillis();                        //Log time for timer
@@ -54,9 +49,9 @@ public class tiling {
         System.out.println("Time taken: " + time / 1000.0 + "s");
     }
 
-    private void loadData(String filename) throws IOException {
-        FileReader fileReader = new FileReader(filename);
-        Scanner scanner = new Scanner(fileReader);
+
+    private void loadData () throws  IOException{
+        Scanner scanner = new Scanner(System.in);
 
         int boardWidth = scanner.nextInt();
         int boardHeight = scanner.nextInt();
